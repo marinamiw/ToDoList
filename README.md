@@ -24,4 +24,12 @@ Este projeto tem como objetivo criar uma aplicação para organizar tarefas diá
 ✅ Marcar tarefas como concluídas  
 ✅ Interface amigável e responsiva  
 
+## 📌 Status do Projeto
+
+| Componente       | Status          |
+|-----------------|----------------|
+| Back-end (API)  | 🚧 Em andamento |
+| Front-end (React) | ❌ Ainda não iniciado |
+
+
 
