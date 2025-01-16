@@ -1,7 +1,10 @@
+from http import HTTPStatus
 from fastapi import FastAPI
+from .schemas import Task
+
 
 app = FastAPI()
 
-@app.get('/')
-def read_root():
-    return {'message': 'Iniciando projeto!'}
+@app.post('/tasksend', response_model=Task)
+def create_task(newTask: Task):
+    return newTask
